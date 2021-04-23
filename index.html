@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Form</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+  <form id="detailsForm" class="detailsForm" action="https://formspree.io/f/xwkapzya" method="POST">
+    <div class="contactFormDiv">Contact Form</div>
+    <div class="nameDiv">
+      <label for="name"></label>
+      <input id="name" name="name" placeholder="Enter your fullname here" type="text" required />
+    </div>
+
+    <div class="emailDiv">
+      <label for="email"></label>
+      <input id="email" name="email" placeholder="Enter your email here" type="email" required />
+    </div>
+
+    <div class="numberDiv">
+      <label for="number"></label>
+      <input id="number" name="number" placeholder="Enter your number here" type="number" required />
+    </div>
+
+    <div class="biographyDiv">
+      <label for="bio"></label>
+      <textarea id="bio" name="bio" placeholder="Enter your biography here" type="tel" required></textarea>
+    </div>
+
+    <div class="submissionButtonDiv">
+      <label for="submissionButton"></label>
+      <button id="submissionButton" name="submissionButton" type="submit">
+        Submit
+      </button>
+    </div>
+  </form>
+</body>
+
+</html>

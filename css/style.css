@@ -1,0 +1,72 @@
+.detailsForm {
+  border-radius: 50px;
+  background: #ffabf6;
+  box-shadow: 20px 20px 60px #d991d1, -20px -20px 60px #ffc5ff;
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 100px;
+  border: 0px;
+}
+
+.contactFormDiv {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.nameDiv,
+.emailDiv,
+.numberDiv,
+.biographyDiv,
+.submissionButtonDiv {
+  padding: 5%;
+}
+
+input,
+textarea {
+  height: 40%;
+  width: 100%;
+
+background: rgba( 255, 255, 255, 0.55 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7.5px );
+-webkit-backdrop-filter: blur( 7.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 10px;
+}
+
+html {
+  background-color: #7699db;
+  background-image: url(https://picsum.photos/2000/1200);
+}
+
+button {
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 5px;
+    border: 1px solid rgba(185, 17, 207, 0.18);]  
+
+}
+  
+  body {
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
